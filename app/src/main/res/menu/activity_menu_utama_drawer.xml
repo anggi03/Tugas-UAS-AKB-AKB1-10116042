@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcc">
+
+
+    <item android:title="Menu">
+        <group android:checkableBehavior="single">
+            <menu>
+
+                <item
+                    android:checkable="true"
+                    android:id="@+id/nav_home"
+                    android:title="Home" />
+
+                <item
+                    android:checkable="true"
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"/>
+
+                <item
+                    android:checkable="true"
+                    android:id="@+id/nav_contact"
+                    android:title="Contact"/>
+
+                <item
+                    android:checkable="true"
+                    android:id="@+id/nav_friend"
+                    android:title="Friend List" />
+
+                <item
+                    android:checkable="true"
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"/>
+
+            </menu>
+        </group>
+    </item>
+</menu>
+
+
+
+
+
